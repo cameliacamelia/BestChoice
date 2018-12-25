@@ -1,0 +1,25 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "question",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "categoryId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "createdAt",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "question",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll"
+}

@@ -1,0 +1,21 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createdAt",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "category",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll"
+}
